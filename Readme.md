@@ -2,6 +2,11 @@
 
 This capstone project, developed for the Digica Academy Data Science Bootcamp, simulates the workflow of a data scientist. The project involves building a model to predict food delivery times using a Jupyter Notebook (.ipynb) and communicating the model's insights effectively through a PowerPoint presentation (.pptx). Additionally, a cost assumption analysis is included in an Excel file to provide further context.
 
+Ver.2 is the updated files for Stanford Code In Place 2025 
+- Convert all string columns to lowercase to standardize the text format.
+- Change the spelling of 'metropolitian' to 'metropolitan' in the 'City' column to improve clarity and consistency.
+- Adding limited Exploratory Data Analysis about number of order based on weather conditions, type of order, festival and city.   
+
 ## Project Objective
 
 1. Develop a predictive model for accurate delivery times.
@@ -18,6 +23,7 @@ This capstone project, developed for the Digica Academy Data Science Bootcamp, s
 - **janitor**: For data cleaning and tidying operations.
 - **statsmodels**: For statistical modeling, including calculating Variance Inflation Factor (VIF).
 - **geopy**: For geographical calculations, specifically calculating distances using coordinates.
+- **scipy.stats**: For chi-squared test
 
 **Machine Learning**
 
